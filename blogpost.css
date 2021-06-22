@@ -1,0 +1,256 @@
+body{
+    background-color: rgb(163, 0, 196);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*
+los colores de "comparacion"
+*/
+.verde{
+    border: 2px solid rgb(104, 216, 104);
+    border-radius: 15px;
+    background-color: rgb(104, 216, 104); 
+    transition: transform 2s;
+}
+.azul{
+    border: 2px solid rgb(112, 112, 241);
+    border-radius: 15px;
+    background-color: rgb(112, 112, 241); 
+    transition: transform 2s;
+}
+.amarillo{
+    border: 2px solid rgb(255, 255, 137);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 137); 
+    transition: transform 2s;
+}
+.naranja{
+    border: 2px solid rgb(248, 205, 126);
+    border-radius: 15px;
+    background-color: rgb(248, 205, 126); 
+    transition: transform 2s;
+}
+.rojo{
+    border: 2px solid rgb(255, 145, 145);
+    border-radius: 15px;
+    background-color: rgb(255, 145, 145); 
+    transition: transform 2s;
+}
+.negro{
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 15px;
+    background-color: rgb(44, 44, 44); 
+    transition: transform 2s;
+}
+.plomo{
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: grey; 
+    transition: transform 2s;
+}
+/*
+final
+*/
+
+
+.verde:hover{
+    transform: scale(2);
+}
+
+.azul:hover{
+    transform: scale(2);
+}
+
+.amarillo:hover{
+    transform: scale(2);
+}
+
+.naranja:hover{
+    transform: scale(2);
+}
+
+.rojo:hover{
+    transform: scale(2);
+}
+
+.negro:hover{
+    transform: scale(2);
+}
+
+.plomo:hover{
+    transform: scale(2);
+}
+
+
+/*
+post1
+*/
+.post1{
+    display: grid;
+    grid-template-columns: 270px 750px 270px auto;
+    grid-template-rows: 50px 200px 200px 30px;
+    border: 3px solid #e7e7e7;
+    background-color: #545454;
+    border-radius: 5%;
+}
+
+.titulo{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-radius: 5%;
+    text-shadow: 2px 2px 5px #e7e7e7;
+}
+
+.fecha{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border-radius: 5%;
+    text-shadow: 2px 2px 5px #e7e7e7;
+}
+
+.colores{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background-color: #e7e7e7;
+    border-radius: 5%;
+    padding: 30px; 
+}
+
+.paises1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 35px; 
+    border-radius: 5%;
+}
+
+.paises2{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    padding: 35px;
+    border-radius: 5%;
+}
+/* 
+post 1
+*/
+
+.paises1 img{
+    border-radius: 10px;
+    transition: transform 2s;
+}
+
+.paises1 img:hover{
+    transform: scale(2);
+}
+
+
+.paises2 img{
+    border-radius: 10px;
+    transition: transform 2s;
+}
+
+.paises2 img:hover{
+    transform: scale(2);
+}
+
+
+/*
+post2
+*/
+.post2{
+    display: grid;
+    grid-template-columns: 270px 750px 270px auto;
+    grid-template-rows: 50px 200px 200px 30px;
+    border: 3px solid #e7e7e7;;
+    background-color: #545454;
+    border-radius: 5%;
+}
+
+.titulo{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-radius: 5%;
+}
+
+.fecha{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border-radius: 5%;
+}
+
+.texto{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background-color: #e7e7e7;
+    padding: 30px; 
+    border-radius: 5%;
+    text-align: justify;
+}
+
+.foto{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 30px; 
+    border-radius: 5%;
+}
+/* 
+post 2
+*/
+
+.foto img{
+    border-radius: 5px;
+    transition: transform 2s;
+}
+
+.foto img:hover{
+    transform: scale(2);
+}
+
+
+/*
+post3
+*/
+.post3{
+    display: grid;
+    grid-template-columns: 270px 750px 270px auto;
+    grid-template-rows: 50px 200px 200px 30px;
+    border: 3px solid #e7e7e7;;
+    background-color: #545454;
+    border-radius: 5%;
+}
+
+.titulo{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-radius: 5%;
+}
+
+.fecha{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border-radius: 5%;
+}
+
+.texto{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background-color: #e7e7e7;
+    padding: 30px; 
+    border-radius: 5%;
+    text-align: justify;
+}
+
+.foto{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 30px; 
+    border-radius: 5%;
+}
+/* 
+post3
+*/
+
+.foto img{
+    border-radius: 5px;
+}

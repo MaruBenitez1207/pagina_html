@@ -1,0 +1,122 @@
+body{
+    background-color: #9b9b9b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*
+los colores de "comparacion"
+*/
+
+.verde{
+    border: 2px solid rgb(104, 216, 104);
+    border-radius: 15px;
+    background-color: rgb(104, 216, 104); 
+}
+.azul{
+    border: 2px solid rgb(112, 112, 241);
+    border-radius: 15px;
+    background-color: rgb(112, 112, 241); 
+}
+.amarillo{
+    border: 2px solid rgb(255, 255, 137);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 137); 
+}
+.naranja{
+    border: 2px solid rgb(248, 205, 126);
+    border-radius: 15px;
+    background-color: rgb(248, 205, 126); 
+}
+.rojo{
+    border: 2px solid rgb(255, 145, 145);
+    border-radius: 15px;
+    background-color: rgb(255, 145, 145); 
+}
+.negro{
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 15px;
+    background-color: rgb(44, 44, 44); 
+}
+.plomo{
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: grey; 
+}
+
+/*
+final
+*/
+
+
+
+.comparacion{
+    display: grid;
+    grid-template-columns: repeat(3, 630px);
+    grid-template-rows: repeat (4, 600px);
+    grid-gap: 10px;
+}
+
+.colores{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #ffffff; 
+    border-radius: 5%;
+}
+
+.paises1{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+
+.paises2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+
+.uso{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: rgb(141, 0, 177);
+    border-radius: 5%;
+}
+
+.clasificacion2{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: #545454;
+    border-radius: 5%;
+}
+
+.clasificacion1{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #545454;  
+    text-align: center;  
+    border-radius: 5%;
+}
+
+
+
+
+.paises1 img {
+    border-radius: 5%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.paises2 img {
+    border-radius: 10%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.clasificacion2 img{
+    text-align: center;
+    border-radius: 5%;
+}
